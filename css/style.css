@@ -1,52 +1,101 @@
-	<style>
-		body {
-			font-family: Calibri;
-			font-size: 25px;
-			color: #FFF;
-			margin: 0; 
-		}
-		header {
-			background: #440e13;
-			padding:  10px;
-			overflow: hidden;
+*{
+	outline: dotted 1px red;
+}
+<style>
+body {
+	font-family: Calibri;
+	font-size: 25px;
+	color: #FFF;
+	margin: 0; 
+}
+img{
+	display: block;
+	width: 100%;
+}
+header {
+	background: #440e13;
+	padding:  10px;
+	overflow: hidden;
 
-		}
-		header h1 {
-			color: #FFF;
-			margin: 0;
-			float: left;
-			font-size: 40px;
-			font-weight: 600;
-			background-image: url("../img/logo.svg");
-			background-repeat: no-repeat;   
-			background-size: contain;
-			padding-left: 45px;
-			margin-top: 5px;
-			margin-bottom: 5px;	
-		}
-		
-		nav { 
-			float: right;
+}
+header h1 {
+	color: #FFF;
+	margin: 0;
+	float: left;
+	font-size: 35px;
+	font-weight: 600;
+	background-image: url("../img/logo.svg");
+	background-repeat: no-repeat;   
+	background-size: contain;
+	padding-left: 50px;
+	margin-top: 5px;
+	margin-bottom: 5px;	
+}
 
-			 }
-		nav ul {
-				margin: 0;
-				padding: 0;
-				list-style: none;
-				font-size: 18px;
-			}	
-		nav li {
-			display: inline-block;
-			text-decoration: none;
-					}
-		nav li a {
-    			text-decoration: none;
-    			color: #FFF;
-    			display: block;
-    			padding: 10px;
-    		}
-    	nav li a:hover {
-    		color: #333;
-    		background-color: #FFF;
+nav { 
+	float: right;
 
-    	}
+	 }
+nav ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		font-size: 20px;
+	}	
+nav li {
+	display: inline-block;
+	text-decoration: none;
+			}
+nav li a {
+		text-decoration: none;
+		color: #FFF;
+		display: block;
+		padding: 10px;
+	}
+nav li a:hover {
+	color: #333;
+	background-color: #FFF;
+
+}
+
+#noticiasDestacadas img {
+	width: 100%;
+}
+#noticiasDestacadas h2 {
+	background-color: #440e13;
+	color: #FFF;
+	font-weight: 700;
+	padding: 20px;
+	font-size: 35px;
+} 
+.noticia {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+}
+.noticia-img{
+	width:30%; 
+}
+.noticia-txt{
+	width: 65%;
+}
+.noticia-txt h3 {
+	font-size: 32px;
+	font-weight: 800;
+}
+.noticia-txt p {
+	font-size: 20px;
+}
+.noticia-txt p:nth-of-type(1){
+	font-weight: 700;
+}
+.noticia-txt h3,
+.noticia-txt p {
+	line-height: 1.5;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+
+
